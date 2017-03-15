@@ -1,0 +1,48 @@
+body {
+	background-color: #f4f4f4;
+}
+
+ul,li,ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul.main-list {
+}
+
+ul.main-list li{
+	display: inline-block;
+	float: left;
+	width: 25%;
+	height: 360px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, .24)
+}
+
+ul.main-list li img {
+	max-width: 100%;
+}
+
+.hero {
+	background: #06c;
+	color: white;
+	padding: 80px 0;
+	margin-bottom: 40px;
+}
+
+.color-red {
+	color: rgba(255,100,100,1)
+}
+
+.footer {
+	padding: 30px 0;
+	text-align: center;
+}
+
+.footer p {
+	font-size: 90%;
+	color: #888;
+}
+
